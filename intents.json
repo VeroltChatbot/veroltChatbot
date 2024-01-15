@@ -1,0 +1,285 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "verolt_purpose",
+      "patterns": [
+        "What does your company do?",
+        "What Verolt Works for ?",
+        "What does your company specialize in?",
+        "What services does your company provide?",
+        "How would you describe the purpose of your company?",
+        "Could you provide information about the range of services your company has?",
+        "How does your company contribute to its respective industry?"
+      ],
+      "responses": [
+        "Verolt is a new-age technology company, eager to solve mission-critical customer challenges in the niche domains of Disruptive Human Machine Interface (HMI), Automotive Software and Data Engineering."
+      ]
+    },
+    {
+      "tag": "verolt_age",
+      "patterns": [
+        "How long has your company been in business?",
+        "When was your company founded?",
+        "How much old is your company ?",
+        "Can you tell me about the age of your company?",
+        "How long has your business been running?",
+        "What is the length of time your company has been active?",
+        "Since when has your company been in operation?",
+        "What is the founding date of your company?",
+        "What is the anniversary of your company's establishment?",
+        "How many years of experience does your company have in the industry?"
+      ],
+      "responses": [
+        "Company is 6 years old and we are serving for that time period only."
+      ]
+    },
+    {
+      "tag": "verolt_work_culture",
+      "patterns": [
+        "Can you explain the atmosphere within your company?",
+        "What is the work environment like at your company?",
+        "Could you describe the company's workplace culture?",
+        "How would you define the ethos or culture of your company?",
+        "What are the values that shape your company's culture?",
+        "Can you elaborate on the organizational culture of your company?",
+        "What are the principles guiding your company's work culture?",
+        "What is unique about the working atmosphere in your company?",
+        "How does your company promote its work culture?",
+        "Could you characterize the workplace environment at your company?"
+      ],
+      "responses": [
+        "Life at Verolt means Design The Future, Decide Your Destiny - (1) Collaboration With Coffee Sit down with the most experienced professionals in the field, and share & discuss your ideas to collaborate over a cuppa. (2) Fun Beyond The Desk Introduce some amusement in your working style. Verolt encourages its employees to keep their work hours entertaining – Happy working provides happy results! (3) Ideas Applauded At Verolt, all ideas are game in the spirit of the best outcomes. We applaud and reward idea contributions from our employees that crack the results for any project."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "verolt_core_values",
+      "patterns": [
+        "Can you outline the key values embraced by your company?",
+        "What principles does your company prioritize?",
+        "What are the company's core values?"
+      ],
+      "responses": [
+        "Thorough, Ethical & Humble"
+      ]
+    },
+    {
+      "tag": "it_support",
+      "patterns": [
+        "How do I request IT support?",
+        "What is the procedure for requesting IT support?",
+        "What should I do for IT support?",
+        "I need help with IT"
+      ],
+      "responses": [
+        "You can submit a ticket through our IT helpdesk system or contact the IT support team directly."
+      ]
+    },
+    {
+      "tag": "request_hardware_or_software",
+      "patterns": [
+        "What is the procedure for requesting new hardware or software?",
+        "How can I request new hardware or software?",
+        "I need new hardware or software"
+      ],
+      "responses": [
+        "Submit a request through the IT department, specifying your requirements. Approval may be required based on the nature of the request."
+      ]
+    },
+    {
+      "tag": "technical_issues_computer",
+      "patterns": [
+        "What should I do if I encounter technical issues with my computer?",
+        "I am facing technical issues with my computer, what to do?"
+      ],
+      "responses": [
+        "Report the issue to the IT helpdesk immediately. Provide details about the problem for faster resolution."
+      ]
+    },
+    {
+      "tag": "password_change",
+      "patterns": [
+        "How often should I change my password, and how can I do it?",
+        "When do I need to change my password and how?",
+        "What is the password change policy?"
+      ],
+      "responses": [
+        "Passwords should be changed every three months (90 days). You can change your password through the company's password management system."
+      ]
+    },
+    {
+      "tag": "company_data_security",
+      "patterns": [
+        "What security measures are in place to protect company data?",
+        "How is company data protected?",
+        "What are the security measures for company data?"
+      ],
+      "responses": [
+        "We have firewalls, antivirus software, and regular security updates. Employees are also encouraged to follow security best practices."
+      ]
+    },
+    {
+      "tag": "meeting_rooms_booking",
+      "patterns": [
+        "What is the process for booking meeting rooms?",
+        "How to book a meeting room?",
+        "Can I book a meeting room?"
+      ],
+      "responses": [
+        "Check the availability on the company calendar and then book a meeting room through the Admin department."
+      ]
+    },
+    {
+      "tag": "visitor_policy",
+      "patterns": [
+        "What is the policy for visitors to the office?",
+        "How should visitors act at the office?"
+      ],
+      "responses": [
+        "All visitors must sign in at the front desk and wear a visitor badge. Employees should escort visitors within the office premises."
+      ]
+    },
+    {
+      "tag": "time_off_request",
+      "patterns": [
+        "What is the process for requesting time off?",
+        "How to request time off?",
+        "Can I request time off?"
+      ],
+      "responses": [
+        "Submit a time-off request through the HR system, adhering to the company's leave policy."
+      ]
+    },
+    {
+      "tag": "expense_reimbursement",
+      "patterns": [
+        "What expenses are eligible for reimbursement, and what is the reimbursement timeline?",
+        "Which expenses can be reimbursed and when?",
+        "When do I get reimbursed and for what expenses?"
+      ],
+      "responses": [
+        "Eligible expenses and reimbursement timelines are outlined in the company's reimbursement policy. Refer to the policy document for details."
+      ]
+    },
+    {
+      "tag": "payroll_processing",
+      "patterns": [
+        "How often is payroll processed, and when can I expect to receive my salary?",
+        "When is payroll processed and when do I get paid?",
+        "Payroll processing frequency and salary payout?"
+      ],
+      "responses": [
+        "Payroll is processed [insert frequency]. Employees can check their salary details on the designated day, and direct deposit is usually made on [insert payday]."
+      ]
+    },
+    {
+      "tag": "budget_approval",
+      "patterns": [
+        "What is the process for obtaining approval for budget requests?",
+        "How to get budget approval?",
+        "Budget approval process?"
+      ],
+      "responses": [
+        "Budget requests should be submitted to the Finance department, specifying the details and justifications. Approval processes vary based on the nature and amount of the request."
+      ]
+    },
+    {
+      "tag": "company_credit_cards",
+      "patterns": [
+        "What is the policy for company credit cards, and how do I request one?",
+        "How to get a company credit card and the policy?",
+        "Company credit card policy and request process?"
+      ],
+      "responses": [
+        "Company credit cards are issued based on job roles and approval. Submit a request through the Finance department, providing reasons for the request."
+      ]
+    },
+    {
+      "tag": "data_engineering_department_head",
+      "patterns": [
+        "Who is leading the Data engineering Department?",
+        "Data engineering department head?"
+      ],
+      "responses": [
+        "Ms Pramoda Meduri is leading Data Engineering Domain."
+      ]
+    },
+    {
+      "tag": "best_practices_data_storage_management",
+      "patterns": [
+        "Can you guide me on best practices for data storage and management?",
+        "Best practices for data storage and management?"
+      ],
+      "responses": [
+        "Sure, please click here [insert link]."
+      ]
+    },
+    {
+      "tag": "data_processing_analysis_tools_platforms",
+      "patterns": [
+        "What tools or platforms does the company use for data processing or analysis?",
+        "Company tools or platforms for data analysis?",
+        "Tools used for data processing or analysis?"
+      ],
+      "responses": [
+        "Microsoft Power BI, Google Data Studio, Jupyter Notebook, SAP BusinessObjects."
+      ]
+    },
+    {
+      "tag": "etl_processes",
+      "patterns": [
+        "Can you assist me in understanding ETL (Extract, Transform, Load) processes?",
+        "Explanation of ETL processes?",
+        "explain ETL",
+        "Understanding ETL?"
+      ],
+      "responses": [
+        "Sure, ETL, which stands for extract, transform, and load, is a data integration process that combines data from multiple data sources into a single, consistent data store that is loaded into a data warehouse or other target system. As the databases grew in popularity in the 1970s, ETL was introduced as a process for integrating and loading data for computation and analysis, eventually becoming the primary method to process data for data warehousing projects. ETL provides the foundation for data analytics and machine learning workstreams. Through a series of business rules, ETL cleanses and organizes data in a way which addresses specific business intelligence needs, like monthly reporting, but it can also tackle more advanced analytics, which can improve back-end processes or end user experiences. ETL is often used by an organization to: - Extract data from legacy systems - Cleanse the data to improve data quality and establish consistency - Load data into a target database."
+      ]
+    }
+  ]
+}
+  
